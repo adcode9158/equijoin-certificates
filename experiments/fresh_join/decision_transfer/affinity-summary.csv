@@ -1,0 +1,4 @@
+cohort,joins,dimension_key_query_pairs,joins_with_changed_keys,changed_key_query_pairs,changed_passing_key_query_pairs,fits_at_100,changed_exact_min,changed_plus1_min
+all,232,3279347,0,0,0,127,0,0
+pilot,80,99501,0,0,0,47,0,0
+test,152,3179846,0,0,0,80,0,0

@@ -1,0 +1,10 @@
+dataset,questions,eligible,distinct,errors
+california_schools,89,0,0,0
+card_games,191,1,1,0
+codebase_community,186,53,47,0
+debit_card_specializing,64,19,17,0
+european_football_2,129,10,10,0
+student_club,158,3,3,0
+superhero,129,28,21,0
+thrombosis_prediction,163,55,53,0
+toxicology,145,0,0,0

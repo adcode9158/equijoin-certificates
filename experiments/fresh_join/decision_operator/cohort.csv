@@ -1,0 +1,5 @@
+lower_exclusive,upper_inclusive,eligible,selected
+-1,65536,376,8
+65536,262144,282,8
+262144,1048576,220,8
+1048576,3000000,105,8

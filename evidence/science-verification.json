@@ -1,0 +1,12 @@
+{
+  "sqlshare-final-100": {
+    "verified_decisions_across_blocks": 1332,
+    "unique_real_arrivals": 111,
+    "all_decisions_correct": true
+  },
+  "sqlshare-final-1000000": {
+    "verified_decisions_across_blocks": 1332,
+    "unique_real_arrivals": 111,
+    "all_decisions_correct": true
+  }
+}

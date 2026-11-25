@@ -1,0 +1,106 @@
+{
+  "n": 111,
+  "train": 37,
+  "test": 74,
+  "sqlite": "3.46.1",
+  "budget": 100,
+  "first": "2011-05-17 22:11:52",
+  "last": "2014-10-14 22:17:03",
+  "first_test": "2013-02-01 00:38:11",
+  "arms": {
+    "single": {
+      "wire": 266,
+      "train_pairs": 2,
+      "layers": {
+        "0": 26,
+        "1": 4
+      },
+      "ready_build_ms": 335.6045635,
+      "refresh_events": 0,
+      "refresh_ms": 0.0,
+      "charged_ms": 1461.6001595,
+      "elapsed_ms": 1462.4394955,
+      "peak_cgroup_mib_max": 256.0
+    },
+    "pair": {
+      "wire": 266,
+      "train_pairs": 2,
+      "layers": {
+        "0": 26,
+        "1": 4
+      },
+      "ready_build_ms": 378.9002795,
+      "refresh_events": 0,
+      "refresh_ms": 0.0,
+      "charged_ms": 1501.900022,
+      "elapsed_ms": 1502.6378344999998,
+      "peak_cgroup_mib_max": 256.0
+    }
+  },
+  "phases": {
+    "all": {
+      "single": {
+        "exact": 97,
+        "fallback_attempts": 97,
+        "verified": 111,
+        "fit_truth": 14,
+        "other_decision_route": 111,
+        "cache": 14,
+        "admitted_known": 14,
+        "disagreement_list": []
+      },
+      "pair": {
+        "exact": 97,
+        "fallback_attempts": 97,
+        "verified": 111,
+        "fit_truth": 14,
+        "other_decision_route": 111,
+        "cache": 14,
+        "admitted_known": 14,
+        "disagreement_list": []
+      }
+    },
+    "heldout": {
+      "single": {
+        "exact": 64,
+        "fallback_attempts": 64,
+        "verified": 74,
+        "fit_truth": 13,
+        "other_decision_route": 74,
+        "admitted_known": 13,
+        "cache": 10,
+        "disagreement_list": []
+      },
+      "pair": {
+        "exact": 64,
+        "fallback_attempts": 64,
+        "verified": 74,
+        "fit_truth": 13,
+        "other_decision_route": 74,
+        "admitted_known": 13,
+        "cache": 10,
+        "disagreement_list": []
+      }
+    }
+  },
+  "paired_end_ms": [
+    178.541653,
+    3.99422,
+    -103.413035,
+    -24.288142,
+    -52.081155,
+    -43.183445
+  ],
+  "median_paired_end_ms": -33.7357935,
+  "wins": 2,
+  "nominal_sustained_request": null,
+  "stable_change_in_execution_path": false,
+  "paired_total_monotonic_ms": [
+    178.633724,
+    4.167142,
+    -103.520199,
+    -24.166845,
+    -52.082523,
+    -43.110609
+  ]
+}

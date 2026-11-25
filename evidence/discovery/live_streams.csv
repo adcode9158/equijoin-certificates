@@ -1,0 +1,9 @@
+cohort,round,policy,queries,initial_high,high_attempts,attempts,low_oom,successes,decision_ms,wall_ms
+A,0,certificate,32,12,12,32,0,32,57.695,5295.547
+A,0,native,32,12,12,32,0,32,58.817,5692.577
+B,0,native,32,13,15,34,2,32,62.988,6026.897
+B,0,certificate,32,13,13,32,0,32,54.95,5769.366
+A,1,native,32,12,12,32,0,32,46.497,5818.603
+A,1,certificate,32,12,12,32,0,32,57.999,5428.642
+B,1,certificate,32,13,13,32,0,32,57.351,5756.179
+B,1,native,32,13,15,34,2,32,60.059,6205.006

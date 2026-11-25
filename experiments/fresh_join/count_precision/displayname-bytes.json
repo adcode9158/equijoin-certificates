@@ -1,0 +1,14 @@
+{
+  "duplicates": {
+    "rows": 1563,
+    "bytes": 32768
+  },
+  "frequency_dictionary": {
+    "rows": 35644,
+    "bytes": 618496
+  },
+  "locator": {
+    "rows": 40325,
+    "bytes": 794624
+  }
+}

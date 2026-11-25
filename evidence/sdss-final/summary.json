@@ -1,0 +1,104 @@
+{
+  "n": 13018,
+  "train": 4339,
+  "test": 8679,
+  "sqlite": "3.46.1",
+  "budget": 100,
+  "first": "2010-11-01 00:11:21.240",
+  "last": "2010-11-07 23:59:18.150",
+  "first_test": "2010-11-03 15:43:15.290",
+  "arms": {
+    "single": {
+      "wire": 88,
+      "train_pairs": 0,
+      "layers": {
+        "0": 5
+      },
+      "ready_build_ms": 5.07479,
+      "refresh_events": 0,
+      "refresh_ms": 0.0,
+      "charged_ms": 543.9894810000001,
+      "elapsed_ms": 550.447505,
+      "peak_cgroup_mib_max": 59.3046875
+    },
+    "pair": {
+      "wire": 88,
+      "train_pairs": 0,
+      "layers": {
+        "0": 5
+      },
+      "ready_build_ms": 5.1794355,
+      "refresh_events": 0,
+      "refresh_ms": 0.0,
+      "charged_ms": 552.368213,
+      "elapsed_ms": 558.90546,
+      "peak_cgroup_mib_max": 54.984375
+    }
+  },
+  "phases": {
+    "all": {
+      "single": {
+        "exact": 1029,
+        "fallback_attempts": 1029,
+        "verified": 13018,
+        "fit_truth": 12769,
+        "admitted_known": 12769,
+        "other_decision_route": 13018,
+        "cache": 11989,
+        "disagreement_list": []
+      },
+      "pair": {
+        "exact": 1029,
+        "fallback_attempts": 1029,
+        "verified": 13018,
+        "fit_truth": 12769,
+        "admitted_known": 12769,
+        "other_decision_route": 13018,
+        "cache": 11989,
+        "disagreement_list": []
+      }
+    },
+    "heldout": {
+      "single": {
+        "cache": 8672,
+        "fallback_attempts": 7,
+        "verified": 8679,
+        "fit_truth": 8494,
+        "admitted_known": 8494,
+        "other_decision_route": 8679,
+        "exact": 7,
+        "disagreement_list": []
+      },
+      "pair": {
+        "cache": 8672,
+        "fallback_attempts": 7,
+        "verified": 8679,
+        "fit_truth": 8494,
+        "admitted_known": 8494,
+        "other_decision_route": 8679,
+        "exact": 7,
+        "disagreement_list": []
+      }
+    }
+  },
+  "paired_end_ms": [
+    12.70059,
+    -11.460548,
+    -6.64056,
+    -11.242888,
+    -14.372936,
+    -0.901729
+  ],
+  "median_paired_end_ms": -8.941724,
+  "wins": 1,
+  "nominal_sustained_request": null,
+  "stable_change_in_execution_path": false,
+  "paired_total_monotonic_ms": [
+    13.683746,
+    -11.934079,
+    -6.524247,
+    -11.105995,
+    -14.498161,
+    -0.919583
+  ]
+}

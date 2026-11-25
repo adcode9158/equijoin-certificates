@@ -1,0 +1,112 @@
+{
+  "n": 111,
+  "train": 37,
+  "test": 74,
+  "sqlite": "3.46.1",
+  "budget": 1000000,
+  "first": "2011-05-17 22:11:52",
+  "last": "2014-10-14 22:17:03",
+  "first_test": "2013-02-01 00:38:11",
+  "arms": {
+    "single": {
+      "wire": 189,
+      "train_pairs": 2,
+      "layers": {
+        "0": 26
+      },
+      "ready_build_ms": 281.8878955,
+      "refresh_events": 0,
+      "refresh_ms": 0.0,
+      "charged_ms": 1477.3953305,
+      "elapsed_ms": 1478.1890585,
+      "peak_cgroup_mib_max": 234.203125
+    },
+    "pair": {
+      "wire": 189,
+      "train_pairs": 2,
+      "layers": {
+        "0": 26
+      },
+      "ready_build_ms": 260.8259875,
+      "refresh_events": 0,
+      "refresh_ms": 0.0,
+      "charged_ms": 1414.398856,
+      "elapsed_ms": 1415.1078109999999,
+      "peak_cgroup_mib_max": 233.94921875
+    }
+  },
+  "phases": {
+    "all": {
+      "single": {
+        "exact": 96,
+        "fallback_attempts": 96,
+        "verified": 111,
+        "fit_truth": 110,
+        "admitted_known": 110,
+        "other_decision_route": 110,
+        "cache": 14,
+        "catalog": 1,
+        "heldout_policy_certificate": 1,
+        "disagreement_list": []
+      },
+      "pair": {
+        "exact": 96,
+        "fallback_attempts": 96,
+        "verified": 111,
+        "fit_truth": 110,
+        "admitted_known": 110,
+        "other_decision_route": 110,
+        "cache": 14,
+        "catalog": 1,
+        "heldout_policy_certificate": 1,
+        "disagreement_list": []
+      }
+    },
+    "heldout": {
+      "single": {
+        "exact": 63,
+        "fallback_attempts": 63,
+        "verified": 74,
+        "fit_truth": 74,
+        "admitted_known": 74,
+        "other_decision_route": 73,
+        "cache": 10,
+        "catalog": 1,
+        "heldout_policy_certificate": 1,
+        "disagreement_list": []
+      },
+      "pair": {
+        "exact": 63,
+        "fallback_attempts": 63,
+        "verified": 74,
+        "fit_truth": 74,
+        "admitted_known": 74,
+        "other_decision_route": 73,
+        "cache": 10,
+        "catalog": 1,
+        "heldout_policy_certificate": 1,
+        "disagreement_list": []
+      }
+    }
+  },
+  "paired_end_ms": [
+    -97.32826,
+    97.287296,
+    130.514914,
+    155.164736,
+    16.149868,
+    70.177427
+  ],
+  "median_paired_end_ms": 83.7323615,
+  "wins": 5,
+  "nominal_sustained_request": 38,
+  "stable_change_in_execution_path": false,
+  "paired_total_monotonic_ms": [
+    -97.424047,
+    97.423214,
+    130.593119,
+    155.251817,
+    16.282993,
+    70.305015
+  ]
+}

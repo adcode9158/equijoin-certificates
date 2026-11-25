@@ -1,0 +1,17 @@
+cohort,policy,cases,rounds,median_ms,min_ms,max_ms,prefix_admissions,prefix_rejections,shape_builds
+full,base_only,86,8,100.1725,97.48,110.095,20,0,29
+full,head_both,86,8,78.324,74.771,83.536,37,16,29
+full,head_reject,86,8,137.778,133.049,150.797,0,16,29
+full,head_resume,86,8,36.252,34.98,38.608,37,16,29
+full,indexed_keys,86,8,71.75999999999999,70.582,79.187,0,0,0
+full,memo_capped,86,8,138.6585,133.666,150.063,0,0,0
+full,natural_resume,86,8,39.028499999999994,36.062,41.365,20,0,29
+full,scan_exact,86,8,247.923,197.534,266.987,0,0,0
+subplan,base_only,1519,8,161.04,157.828,169.771,1056,0,54
+subplan,head_both,1519,8,100.19550000000001,94.004,109.165,1279,173,54
+subplan,head_reject,1519,8,464.908,451.703,505.151,0,173,54
+subplan,head_resume,1519,8,74.63650000000001,72.105,84.929,1279,173,54
+subplan,indexed_keys,1519,8,1529.08,1446.936,1588.335,0,0,0
+subplan,memo_capped,1519,8,370.43550000000005,359.389,386.052,0,0,0
+subplan,natural_resume,1519,8,114.748,110.104,135.836,1056,0,54
+subplan,scan_exact,1519,8,3038.9435,2968.151,3199.8,0,0,0

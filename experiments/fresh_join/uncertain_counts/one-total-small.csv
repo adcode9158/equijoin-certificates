@@ -1,0 +1,16 @@
+dataset,question,domain,observed,base_only,one_total,exact_filtered_fact_and_total
+financial,89,77,13,75,20,0
+financial,100,77,8,75,1,1
+financial,109,77,26,76,1,1
+financial,111,77,9,75,1,1
+financial,183,77,8,75,1,1
+financial,190,77,6,75,21,0
+formula_1,852,72,2,38,37,0
+formula_1,889,72,12,39,0,0
+formula_1,890,72,51,46,0,0
+formula_1,900,72,1,38,11,0
+european_football_2,1073,11,91,11,2,1
+european_football_2,1091,11,36,11,2,0
+european_football_2,1139,11,1,11,2,0
+superhero,753,35,15,6,2,1
+superhero,839,35,91,13,2,1

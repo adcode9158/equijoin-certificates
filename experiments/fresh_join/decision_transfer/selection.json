@@ -1,0 +1,30 @@
+{
+  "released:100": {
+    "challenger": "cert/16384/8",
+    "fixed_cert": "cert/0/8",
+    "deployment": "cap",
+    "fixed_native": "cap",
+    "training_plan_time_ms": 71.5446
+  },
+  "released:512": {
+    "challenger": "cert/0/32",
+    "fixed_cert": "cert/0/32",
+    "deployment": "cap",
+    "fixed_native": "cap",
+    "training_plan_time_ms": 94.58165
+  },
+  "cover:100": {
+    "challenger": "cert/16384/8",
+    "fixed_cert": "cert/0/8",
+    "deployment": "cap",
+    "fixed_native": "cap",
+    "training_plan_time_ms": 9.4359
+  },
+  "cover:512": {
+    "challenger": "cert/16384/32",
+    "fixed_cert": "cert/0/8",
+    "deployment": "cap",
+    "fixed_native": "cap",
+    "training_plan_time_ms": 11.62075
+  }
+}

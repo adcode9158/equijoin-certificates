@@ -1,0 +1,53 @@
+{
+  "tiny_decision_trees": 4530,
+  "all_bird": {
+    "n": 127,
+    "offline_64": 109,
+    "descending_actual_64": 98,
+    "guaranteed_64": 92,
+    "exact_cap_worst_64": 100,
+    "median_worst_combined": 1
+  },
+  "holdout": {
+    "n": 80,
+    "offline_64": 70,
+    "descending_actual_64": 61,
+    "guaranteed_64": 57,
+    "exact_cap_worst_64": 59,
+    "median_worst_combined": 2.0
+  },
+  "difficult_holdout": {
+    "n": 45,
+    "offline_64": 36,
+    "descending_actual_64": 27,
+    "guaranteed_64": 24,
+    "exact_cap_worst_64": 24,
+    "median_worst_combined": 46
+  },
+  "difficult_no_codebase": {
+    "n": 22,
+    "offline_64": 18,
+    "descending_actual_64": 17,
+    "guaranteed_64": 14,
+    "exact_cap_worst_64": 14,
+    "median_worst_combined": 17.0
+  },
+  "badge": {
+    "db": "codebase_community",
+    "question_id": "551",
+    "n": 40325,
+    "observed": 95,
+    "true_passing_count": 1,
+    "combined_catalog_cap": 1,
+    "offline_at_m": 1,
+    "worst_at_m": 18,
+    "offline_at_m1": 2874,
+    "worst_at_m1": 5727,
+    "offline_combined": 1,
+    "actual_descending_combined": 18,
+    "worst_combined": 18,
+    "largest_cap_for_64": 1,
+    "worst_uncapped": 25078,
+    "changes": "{\"1\": 18, \"2\": 5709, \"3\": 19351}"
+  }
+}

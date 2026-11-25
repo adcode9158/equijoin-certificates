@@ -1,0 +1,22 @@
+{
+  "validation": {
+    "weight_budget_pairs": 1646,
+    "distinct_labeled_decision_problems": 162,
+    "descending_worlds": 35876
+  },
+  "q552": {
+    "keys": 40325,
+    "heavy": 18,
+    "top_light": [
+      97,
+      95
+    ],
+    "nonisolated_light": 5709,
+    "cap_one_worst": 18,
+    "cap_two_worst": 5727,
+    "actual_descending_sql_probes": {
+      "1": 18,
+      "2": 2875
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teaching-final": {
+    "train": 64,
+    "test": 130,
+    "first_test_ts": null,
+    "last_test_ts": null,
+    "same_signature_in_all_12_arms": true,
+    "identical_compiled_bytes": true,
+    "single_sha256": "de16d15e563a0f34343e6b9a42e513f9455aeaed197f47ebb6f2214fee35e8b8",
+    "pair_sha256": "de16d15e563a0f34343e6b9a42e513f9455aeaed197f47ebb6f2214fee35e8b8",
+    "all_distinct_sql_cache_charge_upper_bound": 43753,
+    "minimum_answer_cache_cap": 1048492,
+    "timestamp_tie_groups": 0,
+    "tie_does_not_straddle_split": true
+  },
+  "sqlshare-final-100": {
+    "train": 37,
+    "test": 74,
+    "first_test_ts": "2013-02-01 00:38:11",
+    "last_test_ts": "2014-10-14 22:17:03",
+    "same_signature_in_all_12_arms": true,
+    "identical_compiled_bytes": true,
+    "single_sha256": "a2e31dd5bb5dc55e36d08401395979281b08cfbdf4ef6ac3efb9a4b715537812",
+    "pair_sha256": "a2e31dd5bb5dc55e36d08401395979281b08cfbdf4ef6ac3efb9a4b715537812",
+    "all_distinct_sql_cache_charge_upper_bound": 57381,
+    "minimum_answer_cache_cap": 1048310,
+    "timestamp_tie_groups": 0,
+    "tie_does_not_straddle_split": true
+  },
+  "sqlshare-final-1000000": {
+    "train": 37,
+    "test": 74,
+    "first_test_ts": "2013-02-01 00:38:11",
+    "last_test_ts": "2014-10-14 22:17:03",
+    "same_signature_in_all_12_arms": true,
+    "identical_compiled_bytes": true,
+    "single_sha256": "2a26b52d62721ccd4cb425a36c5785722c1fa5a17d39b896caa54051c0e04326",
+    "pair_sha256": "2a26b52d62721ccd4cb425a36c5785722c1fa5a17d39b896caa54051c0e04326",
+    "all_distinct_sql_cache_charge_upper_bound": 57381,
+    "minimum_answer_cache_cap": 1048387,
+    "timestamp_tie_groups": 0,
+    "tie_does_not_straddle_split": true
+  },
+  "sdss-final": {
+    "train": 4339,
+    "test": 8679,
+    "first_test_ts": "2010-11-03 15:43:15.290",
+    "last_test_ts": "2010-11-07 23:59:18.150",
+    "same_signature_in_all_12_arms": true,
+    "identical_compiled_bytes": true,
+    "single_sha256": "34a0ac40510a7a29d8db6c236ce8582917db624c9aa7c0a1ac435a6ea6286cf7",
+    "pair_sha256": "34a0ac40510a7a29d8db6c236ce8582917db624c9aa7c0a1ac435a6ea6286cf7",
+    "all_distinct_sql_cache_charge_upper_bound": 201574,
+    "minimum_answer_cache_cap": 1048488,
+    "timestamp_tie_groups": 74,
+    "tie_does_not_straddle_split": true
+  }
+}

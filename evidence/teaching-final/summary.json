@@ -1,0 +1,116 @@
+{
+  "n": 194,
+  "train": 64,
+  "test": 130,
+  "sqlite": "3.46.1",
+  "budget": 100,
+  "first": null,
+  "last": null,
+  "first_test": null,
+  "arms": {
+    "single": {
+      "wire": 84,
+      "train_pairs": 0,
+      "layers": {
+        "0": 4
+      },
+      "ready_build_ms": 0.5919730000000001,
+      "refresh_events": 0,
+      "refresh_ms": 0.0,
+      "charged_ms": 216.058399,
+      "elapsed_ms": 216.29776850000002,
+      "peak_cgroup_mib_max": 53.17578125
+    },
+    "pair": {
+      "wire": 84,
+      "train_pairs": 0,
+      "layers": {
+        "0": 4
+      },
+      "ready_build_ms": 0.587785,
+      "refresh_events": 0,
+      "refresh_ms": 0.0,
+      "charged_ms": 225.090048,
+      "elapsed_ms": 225.34481499999998,
+      "peak_cgroup_mib_max": 37.06640625
+    }
+  },
+  "phases": {
+    "all": {
+      "single": {
+        "exact": 116,
+        "fallback_attempts": 116,
+        "verified": 135,
+        "fit_truth": 112,
+        "admitted_known": 112,
+        "other_decision_route": 193,
+        "invalid": 59,
+        "oracle_invalid": 59,
+        "cache": 18,
+        "limit_or_aggregate": 1,
+        "heldout_policy_certificate": 1,
+        "disagreement_list": []
+      },
+      "pair": {
+        "exact": 116,
+        "fallback_attempts": 116,
+        "verified": 135,
+        "fit_truth": 112,
+        "admitted_known": 112,
+        "other_decision_route": 193,
+        "invalid": 59,
+        "oracle_invalid": 59,
+        "cache": 18,
+        "limit_or_aggregate": 1,
+        "heldout_policy_certificate": 1,
+        "disagreement_list": []
+      }
+    },
+    "heldout": {
+      "single": {
+        "invalid": 44,
+        "fallback_attempts": 73,
+        "oracle_invalid": 44,
+        "other_decision_route": 130,
+        "exact": 73,
+        "verified": 86,
+        "fit_truth": 78,
+        "admitted_known": 78,
+        "cache": 13,
+        "disagreement_list": []
+      },
+      "pair": {
+        "invalid": 44,
+        "fallback_attempts": 73,
+        "oracle_invalid": 44,
+        "other_decision_route": 130,
+        "exact": 73,
+        "verified": 86,
+        "fit_truth": 78,
+        "admitted_known": 78,
+        "cache": 13,
+        "disagreement_list": []
+      }
+    }
+  },
+  "paired_end_ms": [
+    -3.945378,
+    -0.736457,
+    12.44339,
+    -15.150125,
+    -13.897688,
+    -6.090307
+  ],
+  "median_paired_end_ms": -5.0178425,
+  "wins": 1,
+  "nominal_sustained_request": null,
+  "stable_change_in_execution_path": false,
+  "paired_total_monotonic_ms": [
+    -3.953832,
+    -0.718951,
+    12.461614,
+    -15.145542,
+    -13.88943,
+    -6.16164
+  ]
+}

@@ -1,0 +1,8 @@
+stage,table,ms,version
+csv-load,badges,48.4676,2.0.1
+csv-load,comments,52.8515,2.0.1
+csv-load,postHistory,74.2185,2.0.1
+csv-load,postLinks,24.9953,2.0.1
+csv-load,posts,58.7545,2.0.1
+csv-load,users,34.2095,2.0.1
+csv-load,votes,77.7269,2.0.1
